@@ -36,7 +36,7 @@ useTestNG(){
 suites 'testng.xml'
 }
 
-task (type:Test){
+task Regression(type:Test){
 useTestNG(){
 suites 'testng.xml'
 }
