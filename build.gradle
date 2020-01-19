@@ -35,4 +35,10 @@ test {
 useTestNG(){
 suites 'testng.xml'
 }
+
+task (type:Test){
+useTestNG(){
+suites 'testng.xml'
+}
+}
 }
